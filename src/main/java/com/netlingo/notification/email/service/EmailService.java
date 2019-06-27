@@ -46,7 +46,7 @@ public class EmailService implements EmailSender {
         model.put("GSP_NAME", "Micro Gaming");
         model.put("FROM", "2019-06-20 21:31:08");
         model.put("TO", "2019-06-20 22:31:08");
-        model.put("SIGNATURE", "http://aplus777.com");
+        model.put("SIGNATURE", "Powered by http://aplus777.com");
         
         
          
@@ -56,6 +56,7 @@ public class EmailService implements EmailSender {
         helper.setText(html, true); // set to html
         helper.setSubject("Sample Email Notification Using Spring");
         helper.addInline("maintenance-services.jpg", new ClassPathResource("maintenance-services.jpg"));
+        helper.addInline("logo.png", new ClassPathResource("logo.png"));
         sender.send(message);
 		
 	}

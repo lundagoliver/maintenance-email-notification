@@ -20,7 +20,7 @@
 
     <table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="border-collapse: collapse;">
         <tr>
-            <td align="center" bgcolor="#78ab46" style="padding: 40px 0 30px 0;">
+            <td align="center" bgcolor="#3479b7" style="padding: 40px 0 30px 0;">
                 <img src="cid:maintenance-services.jpg" alt="http://aplus777.com" style="display: block;" />
             </td>
         </tr>
@@ -29,14 +29,15 @@
                 <p>Hi,</p>
 				<p>System check of <b>${GSP_NAME}</b> proceeds as follows.</p>
 				<p>Game company: <b>${GSP_NAME}</b></p>
-				<p>Game company: <b>${GSP_NAME}</b></p>
+				<p>Schedule: <b>${FROM} to ${TO}</b><p>
 				<p>Miscellaneous: <b>This is a regular system check.</b></p>
                 <p>In order to provide a more stable and smooth game environment, we will check regularly. We will inform you that we will restart the game after the check is completed. Should you have any queries, please contact us through our 24-hour Support for any assistance. Thank you for your attention and we apologize for any inconvenience that may cause.</p>
                 <p>Thank you.</p>
             </td>
         </tr>
         <tr>
-            <td bgcolor="#777777" style="padding: 30px 30px 30px 30px;">
+            <td bgcolor="#CCCCCC" style="padding: 30px 30px 30px 30px;">
+                <p><img src="cid:logo.png" style="display: block; height: 50px; float: right;" /></p>
                 <p>${SIGNATURE}</p>
 				<p>Don't like these emails? <a href="http://aplus777.com">Unsubscribe</p>
             </td>
